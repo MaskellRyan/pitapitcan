@@ -1,0 +1,210 @@
+<div class="store-header-banner">
+	<h1>Pita Pit [storepage field="store"]</h1>
+	<p>[storepage field="address"] [storepage field="address2"]</p>
+</div>
+
+<div class="container">
+
+	<div class="store-page-content">
+		<div class="leftpadding ajaxed">
+			
+			<article class="post">
+
+				<div class="content single clearfix">
+
+					<div class="has-french-[storepage field='has_french']">
+						<div class="top-cta-btns">
+							<div class="lang-eng row cta-btns">
+								<div class="mobile-only four columns">
+									<a href="#contact-pitapit" class="red-btn btn">Contact Us</a>
+								</div>
+								<div class="no-padding-left four columns">
+									<a href="http://pitapit.ca/assets/files/Catering_Menu.pdf" class="green-btn btn">Download Catering Menu</a>
+								</div>
+								<div class="four columns">
+									<a href="tel:[storepage field='phone']" class="red-btn btn">Call Us At [storepage field="phone"]</a>
+								</div>
+								<div class="four columns">
+									<a href="http://pitapit.ca/assets/files/faxable_menu.pdf" class="green-btn btn">Download Faxable Menu</a>
+								</div>
+							</div>
+
+							<div class="lang-fr row cta-btns">
+								<div class="mobile-only four columns">
+									<a href="#contact-pitapit" class="red-btn btn">Contact Us</a>
+								</div>
+								<div class="no-padding-left four columns">							
+									<a href="http://www.pitapit.ca/assets/files/fr/Catering_Menu.pdf" class="green-btn btn">Download Catering Menu</a>
+								</div>
+								<div class="four columns">
+									<a href="tel:[storepage field='phone']" class="red-btn btn">Call Us At [storepage field="phone"]</a>
+								</div>
+								<div class="four columns">
+									<a href="http://pitapit.ca/assets/files/fr/faxable_menu.pdf" class="green-btn btn">Download Faxable Menu</a>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="one-half column">
+								<div class="equal-height padded dark-box">
+									<h1 class="lang-eng header">We Cater For Any Occasion!</h1>
+									<h1 class="lang-fr header">We Cater For Any Occasion!</h1>
+									<div class="clearSpace2"></div>
+									<div class="lang-eng">[storepage field="marketing_copy"]</div>
+									<div class="lang-fr">[storepage field="marketing_copy_french"]</div>
+									[storepage field="image" type="image"]
+								</div>
+							</div>
+							<div class="one-half column">
+								<div id="contact-pitapit" class="equal-height padded dark-box">
+									<h1 class="lang-eng header">Get More Information or Place an Order Here</h1>
+									<h1 class="lang-fr header">Get More Information or Place an Order Here</h1>
+									<p class="lang-eng">Either call us at [storepage field="phone"] or fill out the form below. Please allow 24 hours for response from email.</p>
+									<p class="lang-fr">Either call us at [storepage field="phone"] or fill out the form below. Please allow 24 hours for response from email.</p>
+									<div class="clearSpace2"></div>
+									<form class="contactForm" id="storeContactForm" action="" method="post" name="store_contact_form">
+										<div style="display: none;" id="store_email">[storepage field='email' type='url']</div>
+										<div style="display: none;" id="store_id">[storepage field='sl_id']</div>
+										<p><input id="name" class="inputMain" name="name" size="60" type="text" placeholder="Name*"></p>
+										<div class="clearSpace"></div>
+										<p><input id="email" class="inputMain" name="email" size="35" type="text" placeholder="Email*"></p>
+										<div class="clearSpace"></div>
+										<p><textarea class="inputText" name="comments" placeholder="Message*"></textarea></p>
+										<div class="clearSpace"></div>
+										<input class="btn" id="submitButton" style="width:140px; height: 43px; color: #ffffff; background-color:#ff0000; border-style: none; border-radius: 0; -moz-border-radius:0; font-size: 1.3em;" value="Submit" type="button">
+
+										<div class="submit-confirmed">
+											<p class="lang-eng">Your message has been sent!</p>
+											<p class="lang-fr">Your message has been sent!</p>
+										</div>
+										<div class="submit-failure">
+											<p class="lang-eng">You message failed to send, check your entry and try again.</p>
+											<p class="lang-fr">You message failed to send, check your entry and try again.</p>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="clearFill"></div>
+						<div class="dark-box padded">
+							<div class="row">
+								<div class="lang-eng four columns">
+									<p>
+										<b>Pita Pit [storepage field="store"]</b> <br />
+										[storepage field="address"] [storepage field="address2"]
+										[storepage field="city"], [storepage field="state"] [storepage field="zip"]
+										[storepage field="country"]
+									</p>
+
+									<p>
+										<a target="_blank" href="http://maps.google.com/maps?saddr=&daddr=[storepage field='address'] [storepage field='address2'] [storepage field='city'], [storepage field='state'] [storepage field='zip'] [storepage field='country']">Get Directions</a>
+									</p>
+
+									<p>
+										Phone: [storepage field="phone"]
+										Fax: [storepage field="fax"]
+										<a href="mailto:[storepage field='email' type='url']">Email this Location</a>
+									</p>
+
+									<p>
+										<b class="style-green">Store hours:</b>
+										[storepage field="hours" type="html"]
+									</p>
+
+									<p style="margin-bottom: 0px;"><b class="style-green">Available at this Location:</b></p>
+									<ul class="location_features">
+										<li class="feature-state-[storepage field='breakfast']">BREAKFAST</li>
+										<li class="feature-state-[storepage field='delivery']">DELIVERY<span style="display:inline" class="feature-state-[storepage field='have_delivery_footnotes']">*</span></li>
+										<li class="feature-state-[storepage field='smoothies']">SMOOTHIES</li>
+										<li class="feature-state-[storepage field='loyalty_program']">LOYALTY</li>
+										<li class="feature-state-[storepage field='drive_thru']">DRIVE THRU</li>
+										<li class="feature-state-[storepage field='order_online']">ORDER ONLINE</li>
+									</ul>
+									<p style="margin-bottom: 0px; margin-top: 3px;"><small class="feature-state-[storepage field='have_delivery_footnotes']">*[storepage field="delivery_footnotes"]</small></p>
+
+									<p style="margin-bottom: 0; margin-top: 20px;">
+										Owner: [storepage field="franchisee_name"]
+									</p>
+								</div>
+								<div class="lang-fr four columns no-padding-left">
+									<p>
+										<b>Pita Pit [storepage field="store"]</b> <br />
+										[storepage field="address_1_french"] [storepage field="address_2_french"]
+										[storepage field="city"], [storepage field="state"] [storepage field="zip"]
+										[storepage field="country"]
+									</p>
+
+									<p>
+										<a target="_blank" href="http://maps.google.com/maps?saddr=&daddr=[storepage field='address_1_french'] [storepage field='address_2_french'] [storepage field='city'], [storepage field='state'] [storepage field='zip'] [storepage field='country']">Get Directions</a>
+									</p>
+
+									<p>
+										Tél. : [storepage field="phone"]
+										Téléc. : [storepage field="fax_french"]
+										<a href="mailto:[storepage field='email' type='url']">Email this Location</a>
+									</p>
+
+									<p>
+										<b class="style-green">Store heures:</b>
+										[storepage field="hours_french" type="html"]
+									</p>
+
+									<p style="margin-bottom: 0px;"><b class="style-green">Available at this emplacement:</b></p>
+									<ul class="location_features">
+										<li class="feature-state-[storepage field='breakfast']">Petits déjeuners</li>
+										<li class="feature-state-[storepage field='delivery']">Livraison<span style="display:inline" class="feature-state-[storepage field='have_delivery_footnotes']">*</span></li>
+										<li class="feature-state-[storepage field='smoothies']">Smoothies</li>
+										<li class="feature-state-[storepage field='loyalty_program']">Carte de fidelité</li>
+										<li class="feature-state-[storepage field='drive_thru']">Service à l'auto</li>
+										<li class="feature-state-[storepage field='order_online']">Order Online</li>
+									</ul>
+									<p style="margin-bottom: 0px; margin-top: 3px;"><small class="feature-state-[storepage field='have_delivery_footnotes']">*[storepage field="delivery_footnotes_french"]</small></p>
+
+									<p style="margin-bottom: 0; margin-top: 20px;">
+										Propriétaire: [storepage field="franchisee_name"]
+									</p>
+								</div>
+								<div class="eight columns store-map-detail">
+									[storepage map="location"]	
+								</div>
+							</div>
+						</div>
+						<div class="bottom-cta-btns">
+							<div class="lang-eng row cta-btns">
+								<div class="four columns">
+									<a href="http://pitapit.ca/assets/files/Catering_Menu.pdf" class="green-btn btn">Download Catering Menu</a>
+								</div>
+								<div class="four columns">
+									<a href="tel:[storepage field='phone']" class="red-btn btn">Call Us At [storepage field="phone"]</a>
+								</div>
+								<div class="four columns">
+									<a href="http://pitapit.ca/assets/files/faxable_menu.pdf" class="green-btn btn">Download Faxable Menu</a>
+								</div>
+							</div>
+
+							<div class="lang-fr row cta-btns">
+								<div class="four columns">
+									<a href="http://www.pitapit.ca/assets/files/fr/Catering_Menu.pdf" class="green-btn btn">Download Catering Menu</a>
+								</div>
+								<div class="four columns">
+									<a href="tel:[storepage field='phone']" class="red-btn btn">Call Us At [storepage field="phone"]</a>
+								</div>
+								<div class="four columns">
+									<a href="http://pitapit.ca/assets/files/fr/faxable_menu.pdf" class="green-btn btn">Download Faxable Menu</a>
+								</div>
+							</div>
+						</div>
+						<div class="dark-box padded lang-eng feature-state-[storepage field='display-extra-content']">
+							<h3>[storepage field="extra_content_header"]</h3>
+							<p>[storepage field="extra_content"]</p>
+						</div>
+						<div class="dark-box padded lang-fr feature-state-[storepage field='display-extra-content_french']">
+							<h3>[storepage field="extra_content_header_french"]</h3>
+							<p>[storepage field="extra_content_french"]</p>
+						</div>
+					</div>
+				</div>
+			</article>
+		</div>
+	</div>
+</div><script>!function(e,a,t,n,c,o,s){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,o=a.createElement(t),s=a.getElementsByTagName(t)[0],o.async=1,o.src=n,s.parentNode.insertBefore(o,s)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","[storepage field='tracking_code']","auto"),ga("send","pageview");</script>
