@@ -3,40 +3,53 @@
         <div class="three columns">
             <h3 class="style-green search-header lang-eng">Location:</h3>
             <h3 class="style-green search-header lang-fr">Emplacement:</h3>
-            <div class="store-distance lang-eng-cond">[slp_location distance_1] [slp_location distance_unit] away</div>
-            <div class="store-distance lang-fr-cond">À [slp_location distance_1] [slp_location distance_unit]</div>
+            <div class="store-distance">
+                <span class="lang-eng">[slp_location distance_1] [slp_location distance_unit] away</span>
+                <span class="lang-fr">À [slp_location distance_1] [slp_location distance_unit]</span>
+            
+            </div>
+            
             <div class="search_result_store_name">[slp_location name]</div>
-            <div class="fourth search_result_data lang-eng-cond">[slp_location address]</div>
-            <div class="fourth search_result_data lang-fr-cond">[slp_location data.address_1_french] [slp_location data.address_2_french]</div>
-            <div class="feature-state-[slp_location data.franchisee_name] lang-eng">Owner: [slp_location data.franchisee_name]</div>
-            <div class="feature-state-[slp_location data.franchisee_name] lang-fr">Propriétaire: [slp_location data.franchisee_name]</div>
-            <div class="search_result_data lang-eng-cond">Fax: [slp_location fax]</div>
-            <div class="search_result_data lang-fr-cond">Téléc. : [slp_location data.fax_french]</div>
+            
+            <div class="fourth search_result_data"><span class="lang-eng-cond">[slp_location address]</span><span class="lang-fr-cond">[slp_location data.address_1_french] [slp_location data.address_2_french]</span></div>
+            
+            <div class="feature-state-[slp_location data.franchisee_name]"><span class="lang-eng">Owner:</span><span class="lang-fr">Propriétaire:</span><span class="lang-eng-cond">[slp_location data.franchisee_name]</span><span class="lang-fr-cond">[slp_location data.franchisee_name]</span></div>
+            
+            <div class="search_result_data"><span class="lang-eng">Fax:</span><span class="lang-fr">Téléc. :</span><span class="lang-eng-cond">[slp_location fax]</span><span class="lang-fr-cond">[slp_location data.fax_french]</span></div>
+            
         </div>
         <div class="three columns">
             <h3 class="style-green search-header lang-eng">Hours:</h3>
             <h3 class="style-green search-header lang-fr">Heures:</h3>
-            <div class="search_result_hours lang-eng-cond">[slp_location hours_sanitized]</div>
-            <div class="search_result_hours lang-fr-cond">[slp_location data.hours_french]</div>
+            <div class="search_result_hours"><span class="lang-eng-cond">[slp_location hours_sanitized]</span><span class="lang-fr-cond">[slp_location data.hours_french]</div>
+            
         </div>
         <div class="three columns">
             <h3 class="style-green search-header">Services:</h3>
             <ul class="location_features lang-eng">
-            <li class="feature-state-[slp_location data.breakfast]">BREAKFAST</li><li class="feature-state-[slp_location data.delivery]">DELIVERY<span style="display:inline" class="feature-state-[slp_location data.have_delivery_footnotes]">*</span></li><li class="feature-state-[slp_location data.smoothies]">SMOOTHIES</li><li class="feature-state-[slp_location data.loyalty_program]">LOYALTY</li><li class="feature-state-[slp_location data.drive_thru]">DRIVE THRU</li><li class="feature-state-[slp_location data.order_online]">ORDER ONLINE</li>
+                <li class="feature-state-[slp_location data.breakfast]">BREAKFAST</li><li class="feature-state-[slp_location data.delivery]">DELIVERY<span style="display:inline" class="feature-state-[slp_location data.have_delivery_footnotes]">*</span></li><li class="feature-state-[slp_location data.smoothies]">SMOOTHIES</li><li class="feature-state-[slp_location data.loyalty_program]">LOYALTY</li><li class="feature-state-[slp_location data.drive_thru]">DRIVE THRU</li><li class="feature-state-[slp_location data.order_online]">ORDER ONLINE</li>
             </ul>
             <ul class="location_features lang-fr">
-            <li class="feature-state-[slp_location data.breakfast]">Petits déjeuners</li><li class="feature-state-[slp_location data.delivery]">Livraison<span style="display:inline" class="feature-state-[slp_location data.have_delivery_footnotes]">*</span></li><li class="feature-state-[slp_location data.smoothies]">Smoothies</li><li class="feature-state-[slp_location data.loyalty_program]">Carte de fidelité</li><li class="feature-state-[slp_location data.drive_thru]">Service à l'auto</li><li class="feature-state-[slp_location data.order_online]">Order Online</li>
+                <li class="feature-state-[slp_location data.breakfast]">Petits déjeuners</li><li class="feature-state-[slp_location data.delivery]">Livraison<span style="display:inline" class="feature-state-[slp_location data.have_delivery_footnotes]">*</span></li><li class="feature-state-[slp_location data.smoothies]">Smoothies</li><li class="feature-state-[slp_location data.loyalty_program]">Carte de fidelité</li><li class="feature-state-[slp_location data.drive_thru]">Service à l'auto</li><li class="feature-state-[slp_location data.order_online]">Order Online</li>
             </ul>
-            <small class="feature-state-[slp_location data.have_delivery_footnotes] lang-eng-cond">*[slp_location data.delivery_footnotes]</small>
-            <small class="feature-state-[slp_location data.have_delivery_footnotes_french] lang-fr-cond">*[slp_location data.delivery_footnotes_french]</small>
+            
+            <small>
+            
+                <span class="feature-state-[slp_location data.have_delivery_footnotes] lang-eng-cond">*[slp_location data.delivery_footnotes]</span>
+            
+                <span class="feature-state-[slp_location data.have_delivery_footnotes_french] lang-fr-cond">*[slp_location data.delivery_footnotes_french]</span>
+                
+            </small>
+            
         </div>
         <div class="three columns">
 <!--             <a class="search_result_order" target="_blank" href="" style="display: none;"></a>
             <a href="#" id="order_online_btn_14" data-marker_number="14" class="feature-state-[slp_location data.order_online] btn green-btn search_result_btn order_online_button">ORDER ONLINE</a> -->
-            <div class="feature-state-[slp_location data.has_store_page]"><a href="[slp_location url]" class="btn red-btn lang-eng">More Details</a></div>
-            <div class="feature-state-[slp_location data.has_store_page]"><a href="[slp_location url]" class="btn red-btn lang-fr">Plus De Détails</a></div>
-            <div class="feature-state-[slp_location data.has_email]"><a href="mailto:[slp_location email]" class="btn green-btn lang-eng">Email Here</a></div>
-            <div class="feature-state-[slp_location data.has_email]"><a href="mailto:[slp_location email]" class="btn green-btn lang-fr">Courriel Ici</a></div>
+            
+            <div class="feature-state-[slp_location data.has_store_page] lang-eng"><a href="[slp_location url]" class="btn red-btn">More Details</a></div>
+            <div class="feature-state-[slp_location data.has_store_page] lang-fr"><a href="[slp_location url]" class="btn red-btn ">Plus De Détails</a></div>
+            <div class="feature-state-[slp_location data.has_email] lang-eng"><a href="mailto:[slp_location email]" class="btn green-btn">Email Here</a></div>
+            <div class="feature-state-[slp_location data.has_email] lang-fr"><a href="mailto:[slp_location email]" class="btn green-btn">Courriel Ici</a></div>
             <div class="feature-state-[slp_location data.has_phone]"><a href="tel:[slp_location phone]" class="btn red-btn">[slp_location phone]</a></div>
         </div>
     </div>

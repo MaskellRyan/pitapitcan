@@ -1,0 +1,175 @@
+.cateringPage{
+    text-align: center;
+    width: 100%;
+}
+
+.container{
+    width: 100% !important;
+    max-width: 100%;
+}
+
+.cateringPage .subHeader{
+    background-color: #707070;
+    color: #ffffff;
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.cateringPage .listItem{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.cateringPage .listItem .number{
+    font-size: 1.8em;
+}
+
+.cateringPage img.howToOrder{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+img.cateringTray{
+    width: 70% !important;
+    max-width: 690px !important;
+}
+
+.cateringPage a.button{
+    margin-top: 24px;
+    display: block;
+}
+
+.cateringPage a img {
+    width: 180px;
+}
+
+.cateringPage .sectionOne .details{
+    border-style: solid;
+    border-top-width: 1px;
+    border-color: #444444;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cateringPage .psuedoHeader{
+    width: 100%;
+    /*position: absolute;
+    top: 0px;
+    left: 0px;*/
+}
+
+.cateringPage ul{
+
+}
+
+.cateringPage ol{
+
+}
+
+
+.cateringPage .sectionTwo{
+    background-color: #ffffff;
+}
+
+
+.cateringPage .sectionTwo h6{
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.cateringPage .panelHalf{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.cateringPage .panelHalf *{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cateringPage .content, .footer .container{
+    width: 70%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.cateringPage select{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.cateringPage .platterSection{
+    position: relative;
+}
+
+.cateringPage .platterPanel{
+    display:none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cateringPage ul{
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.page-padding{
+    padding-top: 0 !important;
+}
+
+.page-section{
+    padding-top: 0 !important;
+}
+
+@media (max-width: 850px){ /* and (min-width: 701px) {*/
+    .content, .footer .container{
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 700px){
+    .content, .footer .container{
+        width: 90% !important;
+    }
+
+    .panelHalf{
+        width: 100% !important;
+    }
+
+
+}
+
+@media (max-width: 480px){
+    .cateringPage .psuedoHeader{
+        margin-top:15px;
+    }
+}
+
+
+.cateringPage span.pricevary{
+    display: block;
+    font-size: 0.8em;
+}
+
+.catering_menu_link{
+    color: green !important;
+    margin-top:10px;
+    display: block;
+}
+
+.catering_menu_link:hover{
+    color: green !important;
+}

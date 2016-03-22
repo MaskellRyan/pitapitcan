@@ -1342,3 +1342,7 @@ div.results_entry a.green-btn:hover {
 .feature-state-0, .feature-state- {
     display: none !important;
 }
+
+div#slp_tagline {
+    display: none;
+}
