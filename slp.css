@@ -672,7 +672,7 @@ div#map_sidebar div.results_entry a.btn {
 }
 
 div#map_sidebar div.results_entry a.btn:last-of-type {
-    margin-bottom: 0;
+    /*margin-bottom: 0;*/
 }
 
 div.results_entry a.red-btn:hover {
@@ -1342,6 +1342,3 @@ div.results_entry a.green-btn:hover {
 .feature-state-0, .feature-state- {
     display: none !important;
 }
-
-.has-french-0 .lang-eng-cond, .has-french- .lang-eng-cond {display: block;}
-.has-french-0 .lang-fr-cond, .has-french- .lang-fr-cond {display: none;}
